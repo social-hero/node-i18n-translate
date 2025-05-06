@@ -73,7 +73,7 @@
   // mark修改配置文件
   const translate = new Translate({
     projectId: 'cogent-cocoa-458303-g0', // Google Cloud项目ID
-    // 第一个参数指的是当前路径，第二个参数是密钥文件名称
+    // 第一个参数指的是当前路径，第二个参数是密钥文件名称，已经在仓库中放了示例
     keyFilename: path.resolve(__dirname, 'service-account-key.json') 
   })
   //mark 获取父路径
