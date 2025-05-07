@@ -14,7 +14,7 @@ node-i18n-translate是一款多语言国际化工具,可轻松将本地化文件
   npm install i18next react-i18next i18next-browser-languagedetector 
   ```
 
-  ![image-20250506180320785](/Users/zhangguoqing/Library/Application Support/typora-user-images/image-20250506180320785.png)
+
 
   ```jsx
   import { useTranslation } from 'react-i18next';
