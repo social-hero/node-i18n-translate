@@ -63,7 +63,7 @@ node-i18n-translate是一款多语言国际化工具,可轻松将本地化文件
 - 配置Google Cloud Translation API
 
   ```
-  创建 Google Cloud 项目+启用 Translation API+创建服务账号+生成密钥+设置环境变量：直接将，密钥放在和translate.cjs一个目录下，然后在脚本里面配置即可，
+  创建 Google Cloud 项目+启用 Translation API+创建服务账号+生成密钥：直接将，密钥文件放在和translate.cjs一个目录下（仓库中service-account-key文件为密钥示例，直接替换即可），然后在脚本里面配置即可，
   ```
 
 - 安装本脚本
