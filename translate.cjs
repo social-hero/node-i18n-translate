@@ -265,7 +265,7 @@ async function translateFile (sourceLang, targetLang, sourcefilePath, targetLang
  * 主函数 - 执行翻译任务
  */
 async function main () {
-  const args = process.argv.slice(2)
+  const args = process.argv.slice(2) //获取对应node命令参数
   
   // 设置翻译参数
   let sourceLang = 'zh' // 源语言:英语

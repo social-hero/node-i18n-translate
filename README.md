@@ -8,7 +8,7 @@ node-i18n-translate是一款多语言国际化工具,可轻松将本地化文件
 
 - 安装node （本人使用的是v22.13.0）
 
-- react-i18next
+- react-i18next（单独node脚本使用可跳过）
 
   ```bash
   npm install i18next react-i18next i18next-browser-languagedetector 
@@ -26,16 +26,16 @@ node-i18n-translate是一款多语言国际化工具,可轻松将本地化文件
 
   
 
-- i18next-scanner
+- i18next-scanner（单独node脚本使用可跳过）
 
   ```bash
   npm install i18next-scanner
   ```
 
-  配置文件：
+  i18next-scanner配置文件：
 
   ```js
-  // 本脚本是为了扫描项目中使用的国际化的key，生成对应的zh.json文件，方便翻译人员翻译。
+  // 本i18next-scanner是为了扫描项目中使用的国际化的key，生成对应的zh.json文件，方便翻译人员翻译。
   module.exports = {
     input: [
       'src/**/*.{js,jsx,ts,tsx}',
